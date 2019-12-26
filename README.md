@@ -7,7 +7,7 @@ Udemy Course - [The Complete Junior to Senior Web Developed Roadmap (2020)](http
 
 1. Run `yarn install` to install required dependencies for this project;
 
-2. Start the App running `yarn start`.
+2. Start the App running `yarn dev`.
 
 
 ### Task definition
