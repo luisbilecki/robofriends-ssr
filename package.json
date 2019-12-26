@@ -3,7 +3,12 @@
   "version": "1.0.0",
   "main": "index.js",
   "author": "Luis F. Bilecki <luis.bilecki@gmail.com>",
-  "license": "MIT",
+  "license": "",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
+  },
   "dependencies": {
     "next": "^9.1.6",
     "react": "^16.12.0",
