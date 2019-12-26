@@ -1,10 +1,20 @@
 import Page from '../layouts/main';
-import Header from '../components/Header';
+import fetch from 'isomorphic-unfetch';
+import Robots from '../components/Robots';
 
-const Index = () => (
+const Index = (props) => (
   <Page>
-    <Header />
+    <Robots data={props.robots}/>
   </Page>
 );
+
+Index.getInitialProps = async() => {
+  const res = await fetch('https://jsonplaceholder.typicode.com/users');
+  const data = await res.json();
+
+  return {
+      robots: data,
+  };
+};
 
 export default Index;

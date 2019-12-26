@@ -1,7 +1,7 @@
 import Meta from '../components/Meta';
 
 export default ({ children }) => (
-  <div>
+  <div className="tc">
     <Meta />
     { children }
   </div>
