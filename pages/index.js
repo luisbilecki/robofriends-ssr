@@ -1,8 +1,9 @@
 import Page from '../layouts/main';
+import Header from '../components/Header';
 
 const Index = () => (
   <Page>
-      <p>my page with global styles!</p>
+    <Header />
   </Page>
 );
 
